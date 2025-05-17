@@ -1,0 +1,5 @@
+package java_01_lambda_expressions;
+
+public class Java_10_Check_if_A_String_Contains_Only_Alphabets_In_Java_Using_Lambda_Expression {
+
+}

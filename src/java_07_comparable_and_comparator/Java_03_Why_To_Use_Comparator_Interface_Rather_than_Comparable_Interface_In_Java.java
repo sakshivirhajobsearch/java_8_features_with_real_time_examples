@@ -1,0 +1,5 @@
+package java_07_comparable_and_comparator;
+
+public class Java_03_Why_To_Use_Comparator_Interface_Rather_than_Comparable_Interface_In_Java {
+
+}

@@ -1,0 +1,5 @@
+package java_07_comparable_and_comparator;
+
+public class Java_05_Java_Program_To_Sort_LinkedList_Using_Comparable {
+
+}

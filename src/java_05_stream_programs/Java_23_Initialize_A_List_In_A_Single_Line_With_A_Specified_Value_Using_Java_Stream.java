@@ -1,0 +1,5 @@
+package java_05_stream_programs;
+
+public class Java_23_Initialize_A_List_In_A_Single_Line_With_A_Specified_Value_Using_Java_Stream {
+
+}
