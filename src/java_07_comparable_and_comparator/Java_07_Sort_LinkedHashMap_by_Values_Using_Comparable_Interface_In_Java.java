@@ -1,5 +1,0 @@
-package java_07_comparable_and_comparator;
-
-public class Java_07_Sort_LinkedHashMap_by_Values_Using_Comparable_Interface_In_Java {
-
-}

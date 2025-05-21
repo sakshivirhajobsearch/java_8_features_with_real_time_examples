@@ -1,5 +1,0 @@
-package java_07_comparable_and_comparator;
-
-public class Java_06_How_To_Sort_HashSet_Elements_Using_Comparable_Interface_In_Java {
-
-}
