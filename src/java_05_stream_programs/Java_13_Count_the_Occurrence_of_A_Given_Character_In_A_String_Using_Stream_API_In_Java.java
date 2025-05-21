@@ -1,5 +1,0 @@
-package java_05_stream_programs;
-
-public class Java_13_Count_the_Occurrence_of_A_Given_Character_In_A_String_Using_Stream_API_In_Java {
-
-}

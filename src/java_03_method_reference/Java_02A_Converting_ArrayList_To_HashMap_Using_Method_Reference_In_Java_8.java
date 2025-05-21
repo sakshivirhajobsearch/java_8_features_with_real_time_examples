@@ -1,0 +1,5 @@
+package java_03_method_reference;
+
+public class Java_02A_Converting_ArrayList_To_HashMap_Using_Method_Reference_In_Java_8 {
+
+}
