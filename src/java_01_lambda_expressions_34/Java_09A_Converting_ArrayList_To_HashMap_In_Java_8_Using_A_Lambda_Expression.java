@@ -1,0 +1,5 @@
+package java_01_lambda_expressions_34;
+
+public class Java_09A_Converting_ArrayList_To_HashMap_In_Java_8_Using_A_Lambda_Expression {
+
+}

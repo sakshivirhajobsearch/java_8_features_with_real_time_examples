@@ -1,0 +1,5 @@
+package java_01_lambda_expressions_34;
+
+public class Java_05C_How_To_Create_Thread_Using_Lambda_Expressions_In_Java {
+
+}

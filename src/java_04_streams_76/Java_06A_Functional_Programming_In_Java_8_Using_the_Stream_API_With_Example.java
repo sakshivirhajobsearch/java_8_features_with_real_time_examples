@@ -1,0 +1,5 @@
+package java_04_streams_76;
+
+public class Java_06A_Functional_Programming_In_Java_8_Using_the_Stream_API_With_Example {
+
+}

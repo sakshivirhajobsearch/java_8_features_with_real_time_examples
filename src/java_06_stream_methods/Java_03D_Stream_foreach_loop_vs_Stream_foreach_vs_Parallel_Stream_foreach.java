@@ -1,5 +1,0 @@
-package java_06_stream_methods;
-
-public class Java_03D_Stream_foreach_loop_vs_Stream_foreach_vs_Parallel_Stream_foreach {
-
-}

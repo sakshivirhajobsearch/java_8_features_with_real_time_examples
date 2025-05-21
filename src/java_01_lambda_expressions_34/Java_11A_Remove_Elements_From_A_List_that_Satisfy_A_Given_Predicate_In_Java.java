@@ -1,0 +1,5 @@
+package java_01_lambda_expressions_34;
+
+public class Java_11A_Remove_Elements_From_A_List_that_Satisfy_A_Given_Predicate_In_Java {
+
+}
