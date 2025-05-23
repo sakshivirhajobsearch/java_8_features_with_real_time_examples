@@ -5,10 +5,10 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-//Main class
 public class Java_02A_Difference_Between_Streams_And_Collections_In_Java {
 
 	public static void main(String[] args) {
+		
 		// Creating an instance of list
 		List<String> companyList = new ArrayList<>();
 

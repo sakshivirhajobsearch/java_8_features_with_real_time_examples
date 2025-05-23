@@ -5,8 +5,7 @@ package java_05_stream_programs_57;
 import java.util.Arrays;
 import java.util.stream.Stream;
 
-//Main class
-class Java_08B_Flattening_Nested_Collections_In_Java {
+public class Java_08B_Flattening_Nested_Collections_In_Java {
 
 	// Method 1
 	// To flatten a stream of two arrays of the same type

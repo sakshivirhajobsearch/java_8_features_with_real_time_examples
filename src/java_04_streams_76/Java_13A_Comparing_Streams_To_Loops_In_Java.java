@@ -10,7 +10,6 @@ import java.util.List;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
-//Main class
 //JavaStreams
 public class Java_13A_Comparing_Streams_To_Loops_In_Java {
 

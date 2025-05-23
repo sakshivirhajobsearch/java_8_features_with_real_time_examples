@@ -5,7 +5,6 @@ import java.util.stream.DoubleStream;
 
 public class Java_16C_Generate_Infinite_Stream_of_Double_In_Java {
 
-	// Main method
 	public static void main(String[] args) {
 
 		// Create a Random object

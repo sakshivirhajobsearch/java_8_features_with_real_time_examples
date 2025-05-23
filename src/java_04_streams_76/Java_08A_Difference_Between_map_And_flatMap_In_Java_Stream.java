@@ -7,6 +7,7 @@ import java.util.stream.Collectors;
 public class Java_08A_Difference_Between_map_And_flatMap_In_Java_Stream {
 
 	public static void main(String[] args) {
+		
 		// making the array list object
 		ArrayList<String> fruit = new ArrayList<>();
 		fruit.add("Apple");

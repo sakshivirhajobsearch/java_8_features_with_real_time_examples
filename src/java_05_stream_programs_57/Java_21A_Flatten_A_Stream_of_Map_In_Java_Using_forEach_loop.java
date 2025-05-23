@@ -9,7 +9,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-class Java_21A_Flatten_A_Stream_of_Map_In_Java_Using_forEach_loop {
+public class Java_21A_Flatten_A_Stream_of_Map_In_Java_Using_forEach_loop {
 
 	// Function to flatten a Stream of Map
 	public static <T> List<T> flattenStream(Collection<List<T>> lists) {

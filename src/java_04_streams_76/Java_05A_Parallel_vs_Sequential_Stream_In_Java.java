@@ -6,6 +6,7 @@ import java.util.List;
 public class Java_05A_Parallel_vs_Sequential_Stream_In_Java {
 
 	public static void main(String[] args) {
+		
 		// create a list
 		List<String> list = Arrays.asList("Hello ", "G", "E", "E", "K", "S!");
 

@@ -8,7 +8,6 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
-//Main class
 public class Java_26B_Collectors_joining_Method_With_Examples {
 
 	public static void main(String[] args) {

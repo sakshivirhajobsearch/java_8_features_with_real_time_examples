@@ -6,6 +6,7 @@ import java.util.ArrayList;
 public class Java_06E_Functional_Programming_In_Java_8_Using_the_Stream_API_With_Example {
 
 	public static void main(String[] args) {
+		
 		// Creating an ArrayList of Integer type
 		ArrayList<Integer> list = new ArrayList<>();
 

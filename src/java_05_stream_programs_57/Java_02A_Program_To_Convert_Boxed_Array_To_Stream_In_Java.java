@@ -5,7 +5,7 @@ package java_05_stream_programs_57;
 import java.util.Arrays;
 import java.util.stream.Stream;
 
-class Java_02A_Program_To_Convert_Boxed_Array_To_Stream_In_Java {
+public class Java_02A_Program_To_Convert_Boxed_Array_To_Stream_In_Java {
 
 	// Generic function to convert
 	// an Array to Stream

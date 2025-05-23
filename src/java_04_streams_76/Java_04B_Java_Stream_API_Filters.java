@@ -5,6 +5,7 @@ import java.util.stream.Stream;
 public class Java_04B_Java_Stream_API_Filters {
 
 	public static void filterByEvenElements() {
+		
 		// create integer array
 		Integer[] myArray = new Integer[] { 1, 4, 5, 7, 9, 10 };
 

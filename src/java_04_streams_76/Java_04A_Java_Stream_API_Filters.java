@@ -5,6 +5,7 @@ import java.util.stream.Stream;
 public class Java_04A_Java_Stream_API_Filters {
 
 	public static void main(String[] args) {
+		
 		// create a stream of strings
 		Stream<String> myStream = Stream.of("Like", "and", "Share", "https://www.geeksforgeeks.org/");
 

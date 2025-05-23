@@ -5,6 +5,7 @@ import java.util.stream.Stream;
 public class Java_04F_Java_Stream_API_Filters {
 
 	public static void filterByCustomProperties() {
+		
 		// create a string array
 		String[] myArray = new String[] { "madam", "please", "refer", "link", "on", "racecar" };
 

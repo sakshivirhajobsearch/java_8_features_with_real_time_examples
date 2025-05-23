@@ -5,6 +5,7 @@ import java.util.stream.IntStream;
 public class Java_04D_Java_Stream_API_Filters {
 
 	public static void filterByIndexUsingStream() {
+		
 		// create an array of Strings
 		String[] myArray = new String[] { "stream", "is", "a", "sequence", "of", "elements", "like", "list" };
 

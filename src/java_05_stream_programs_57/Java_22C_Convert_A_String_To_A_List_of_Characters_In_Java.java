@@ -5,7 +5,7 @@ package java_05_stream_programs_57;
 import java.util.AbstractList;
 import java.util.List;
 
-class Java_22C_Convert_A_String_To_A_List_of_Characters_In_Java {
+public class Java_22C_Convert_A_String_To_A_List_of_Characters_In_Java {
 
 	// Function to convert String to List of Characters
 	public static List<Character> StringToCharList(String s) {

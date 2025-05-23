@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-class Java_20A_Flatten_A_Stream_of_Lists_In_Java_Using_forEach_loop {
+public class Java_20A_Flatten_A_Stream_of_Lists_In_Java_Using_forEach_loop {
 
 	// Function to flatten a Stream of Lists
 	public static <T> Stream<T> flattenStream(List<List<T>> lists) {

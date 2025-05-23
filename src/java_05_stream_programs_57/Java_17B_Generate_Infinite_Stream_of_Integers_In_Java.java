@@ -4,7 +4,6 @@ import java.util.Random;
 
 public class Java_17B_Generate_Infinite_Stream_of_Integers_In_Java {
 
-	// Main method
 	public static void main(String[] args) {
 
 		// Create a Random object

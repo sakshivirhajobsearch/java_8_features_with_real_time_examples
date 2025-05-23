@@ -3,7 +3,6 @@ package java_04_streams_76;
 //Importing List class from java.util package
 import java.util.List;
 
-//Main Class
 public class Java_07C_Intermediate_Methods_of_Stream_In_Java {
 
 	// Method 1

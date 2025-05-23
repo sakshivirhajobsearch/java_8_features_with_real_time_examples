@@ -5,7 +5,7 @@ package java_05_stream_programs_57;
 import java.util.Arrays;
 import java.util.stream.Stream;
 
-class Java_06C_Program_To_Convert_Stream_To_an_Array_In_Java {
+public class Java_06C_Program_To_Convert_Stream_To_an_Array_In_Java {
 
 	// Function to convert Stream to Array
 	public static int[] convertStreamToArray(Stream<Integer> stream) {

@@ -1,6 +1,6 @@
 package java_05_stream_programs_57;
 
-class Java_13A_Count_the_Occurrence_of_A_Given_Character_In_A_String_Using_Stream_API_In_Java {
+public class Java_13A_Count_the_Occurrence_of_A_Given_Character_In_A_String_Using_Stream_API_In_Java {
 
 	// Method that returns the count of the given
 	// character in the string

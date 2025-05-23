@@ -4,7 +4,7 @@ package java_05_stream_programs_57;
 
 import java.util.stream.IntStream;
 
-class Java_18A_Program_To_Iterate_over_A_Stream_With_Indices_In_Java_8 {
+public class Java_18A_Program_To_Iterate_over_A_Stream_With_Indices_In_Java_8 {
 
 	public static void main(String[] args) {
 

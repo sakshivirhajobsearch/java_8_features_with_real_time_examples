@@ -9,7 +9,6 @@ import java.util.Map;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-//Main class
 public class Java_08A_Flattening_Nested_Collections_In_Java {
 
 	// Method 1

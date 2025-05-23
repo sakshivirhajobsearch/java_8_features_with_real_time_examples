@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-//Main class
 public class Java_01B_Java_8_Stream {
 
 	public static void main(String[] args) {

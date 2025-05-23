@@ -6,7 +6,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.function.Predicate;
 
-class Java_05B_Program_To_Convert_List_To_Stream_In_Java {
+public class Java_05B_Program_To_Convert_List_To_Stream_In_Java {
 
 	public static void main(String args[]) {
 

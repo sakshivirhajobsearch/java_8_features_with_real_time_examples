@@ -5,6 +5,7 @@ import java.util.stream.Stream;
 public class Java_09D_Array_To_Stream_In_Java {
 
 	public static void main(String[] args) {
+		
 		// Converting String array to stream
 		String[] arr = { "Geeks", "for", "Geeks" };
 

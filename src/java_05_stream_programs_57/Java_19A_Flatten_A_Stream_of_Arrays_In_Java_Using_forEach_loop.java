@@ -8,7 +8,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Stream;
 
-class Java_19A_Flatten_A_Stream_of_Arrays_In_Java_Using_forEach_loop {
+public class Java_19A_Flatten_A_Stream_of_Arrays_In_Java_Using_forEach_loop {
 
 	// Function to flatten a Stream of Arrays
 	public static <T> Stream<T> flattenStream(T[][] arrays) {

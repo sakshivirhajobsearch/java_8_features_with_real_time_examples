@@ -11,7 +11,6 @@ import java.util.stream.IntStream;
 //Importing Guava library
 import com.google.common.collect.ImmutableList;
 
-//Main class
 public class Java_12B_Collecting_A_Stream_To_an_Immutable_Collection_In_Java {
 
 	public static void main(String[] args) {

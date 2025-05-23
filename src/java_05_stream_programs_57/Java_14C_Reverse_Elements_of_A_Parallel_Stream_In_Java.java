@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.stream.Collector;
 import java.util.stream.Stream;
 
-class Java_14C_Reverse_Elements_of_A_Parallel_Stream_In_Java {
+public class Java_14C_Reverse_Elements_of_A_Parallel_Stream_In_Java {
 
 	// Generic function to reverse
 	// the elements of the parallel stream

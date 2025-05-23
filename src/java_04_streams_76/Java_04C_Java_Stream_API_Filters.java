@@ -6,6 +6,7 @@ import java.util.stream.Stream;
 public class Java_04C_Java_Stream_API_Filters {
 
 	public static void filterByIndexUsingAtomic() {
+		
 		// create a string array
 		String[] myArray = new String[] { "stream", "is", "a", "sequence", "of", "elements", "like", "list" };
 

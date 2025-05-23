@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.stream.Collector;
 import java.util.stream.Stream;
 
-class Java_15A_How_To_Get_ArrayList_From_Stream_In_Java_8 {
+public class Java_15A_How_To_Get_ArrayList_From_Stream_In_Java_8 {
 
 	// Generic function to reverse
 	// the elements of the parallel stream

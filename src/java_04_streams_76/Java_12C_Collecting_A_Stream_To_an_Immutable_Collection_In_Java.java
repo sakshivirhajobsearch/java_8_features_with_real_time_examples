@@ -10,7 +10,6 @@ import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-//Main Class
 //ImmutableCollectionList
 public class Java_12C_Collecting_A_Stream_To_an_Immutable_Collection_In_Java {
 

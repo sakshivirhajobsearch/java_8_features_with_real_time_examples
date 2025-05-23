@@ -9,6 +9,7 @@ import java.util.stream.Stream;
 public class Java_17D_Difference_Between_Stream_Of_And_Arrays_Stream_Method_In_Java {
 
 	public static void main(String[] args) {
+		
 		// Creating an integer array
 		int arr[] = { 1, 2, 3, 4, 5 };
 

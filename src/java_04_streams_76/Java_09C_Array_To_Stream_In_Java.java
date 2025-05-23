@@ -9,6 +9,7 @@ import java.util.stream.LongStream;
 public class Java_09C_Array_To_Stream_In_Java {
 
 	public static void main(String[] args) { // Converting long array to stream
+		
 		long[] arrL = { 3L, 5L, 6L, 8L, 9L };
 		LongStream stmL = Arrays.stream(arrL);
 		stmL.forEach(number -> System.out.print(number + " "));

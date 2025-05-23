@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-class Java_23A_Initialize_A_List_In_A_Single_Line_With_A_Specified_Value_Using_Java_Stream {
+public class Java_23A_Initialize_A_List_In_A_Single_Line_With_A_Specified_Value_Using_Java_Stream {
 
 	// Function to create a List
 	// with the specified value

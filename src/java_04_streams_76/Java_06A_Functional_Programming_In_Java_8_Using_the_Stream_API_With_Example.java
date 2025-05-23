@@ -7,8 +7,8 @@ import java.util.stream.Stream;
 public class Java_06A_Functional_Programming_In_Java_8_Using_the_Stream_API_With_Example {
 
 	public static void main(String[] args) {
+		
 		// Data Source
-
 		// Creating an arrayList object
 		// Declaring object of String type
 		ArrayList<String> gfgNames = new ArrayList<>();

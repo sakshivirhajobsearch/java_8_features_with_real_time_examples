@@ -8,6 +8,7 @@ import java.util.stream.IntStream;
 public class Java_06B_Functional_Programming_In_Java_8_Using_the_Stream_API_With_Example {
 
 	public static void main(String[] args) {
+		
 		// Creating a predefined stream using range method
 		// Custom inputs for range as parameters
 		var stream = IntStream.range(1, 100);

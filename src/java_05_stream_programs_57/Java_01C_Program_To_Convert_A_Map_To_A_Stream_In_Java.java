@@ -7,7 +7,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.stream.Stream;
 
-class Java_01C_Program_To_Convert_A_Map_To_A_Stream_In_Java {
+public class Java_01C_Program_To_Convert_A_Map_To_A_Stream_In_Java {
 
 	// Generic function to convert List of
 	// String to List of Integer

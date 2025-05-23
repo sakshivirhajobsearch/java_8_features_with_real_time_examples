@@ -7,7 +7,6 @@ import java.util.stream.Stream;
 //save as file named GFG2.java
 public class Java_19A_concat_Method_of_Stream_Interface_In_Java_API {
 
-	// main method
 	public static void main(String[] args) throws Exception {
 
 		// first stream

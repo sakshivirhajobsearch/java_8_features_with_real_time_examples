@@ -8,15 +8,15 @@ import java.util.Set;
 import java.util.function.Predicate;
 import java.util.stream.Stream;
 
-class Java_04B_Program_To_Convert_A_Set_To_Stream_In_Java_Using_Generics {
+public class Java_04B_Program_To_Convert_A_Set_To_Stream_In_Java_Using_Generics {
 
 	// Generic function to convert a set to stream
 	private static <T> Stream<T> convertSetToStream(Set<T> set, Predicate<T> predicate) {
 		return set.stream().filter(predicate);
 	}
 
-	// Main method
 	public static void main(String args[]) {
+		
 		// Create a set of String
 		Set<String> setOfString = new HashSet<>(Arrays.asList("GeeksForGeeks", "A computer portal", "for", "Geeks"));
 

@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-class Java_07B_How_To_get_Slice_of_A_Stream_In_Java {
+public class Java_07B_How_To_get_Slice_of_A_Stream_In_Java {
 
 	// Generic function to get Slice of a
 	// Stream from startIndex to endIndex
