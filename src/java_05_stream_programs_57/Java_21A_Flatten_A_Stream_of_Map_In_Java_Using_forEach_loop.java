@@ -1,5 +1,45 @@
 package java_05_stream_programs_57;
 
-public class Java_21A_Flatten_A_Stream_of_Map_In_Java_Using_forEach_loop {
+//Java program to flatten a stream of map
+//using forEach() method
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
+class Java_21A_Flatten_A_Stream_of_Map_In_Java_Using_forEach_loop {
+
+	// Function to flatten a Stream of Map
+	public static <T> List<T> flattenStream(Collection<List<T>> lists) {
+
+		// Create an empty list to collect the stream
+		List<T> finalList = new ArrayList<>();
+
+		// Using forEach loop
+		// convert each list into stream
+		// and add the stream into list
+		for (List<T> list : lists) {
+			list.stream().forEach(finalList::add);
+		}
+
+		// Return the final flattened list
+		return finalList;
+	}
+
+	public static void main(String[] args) {
+
+		// Get the map to be flattened.
+		Map<Integer, List<Integer>> map = new HashMap<>();
+		map.put(1, Arrays.asList(1, 2));
+		map.put(2, Arrays.asList(3, 4, 5, 6));
+		map.put(3, Arrays.asList(7, 8, 9));
+
+		// Flatten the Stream
+		List<Integer> flatList = flattenStream(map.values());
+
+		// Print the flattened list
+		System.out.println(flatList);
+	}
 }
