@@ -14,8 +14,8 @@ import java.util.stream.Stream;
 //ImmutableCollectionSet
 public class Java_12E_Collecting_A_Stream_To_an_Immutable_Collection_In_Java {
 
-	// Main driver method
 	public static void main(String[] args) {
+		
 		// Creating Stream object of type Double
 		Stream<Double> randomDecimals = Stream.generate(Math::random).limit(30);
 

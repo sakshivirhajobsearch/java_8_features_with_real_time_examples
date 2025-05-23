@@ -6,7 +6,6 @@ import java.util.List;
 //Main class
 public class Java_02B_Difference_Between_Streams_And_Collections_In_Java {
 
-	// Main driver method
 	public static void main(String[] args) {
 		// Creating an empty Arraylist
 		List<String> companyList = new ArrayList<>();

@@ -19,7 +19,6 @@ public class Java_15A_Convert_an_Iterable_To_Stream_In_Java {
 		return StreamSupport.stream(spliterator, false);
 	}
 
-	// Driver code
 	public static void main(String[] args) {
 
 		// Get the Iterator

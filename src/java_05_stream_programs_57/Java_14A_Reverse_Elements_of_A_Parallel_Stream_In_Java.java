@@ -20,7 +20,6 @@ class Java_14A_Reverse_Elements_of_A_Parallel_Stream_In_Java {
 		});
 	}
 
-	// Driver code
 	public static void main(String[] args) {
 
 		// Get the parallel stream

@@ -20,7 +20,6 @@ class Java_08B_Flattening_Nested_Collections_In_Java {
 	}
 
 	// Method 2
-	// Main driver method
 	public static void main(String[] args) {
 		// Input array of strings
 

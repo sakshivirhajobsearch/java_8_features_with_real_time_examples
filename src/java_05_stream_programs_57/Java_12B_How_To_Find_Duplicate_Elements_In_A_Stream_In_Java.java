@@ -35,7 +35,6 @@ public class Java_12B_How_To_Find_Duplicate_Elements_In_A_Stream_In_Java {
 				.collect(Collectors.toSet());
 	}
 
-	// Driver code
 	public static void main(String[] args) {
 
 		// Initial stream

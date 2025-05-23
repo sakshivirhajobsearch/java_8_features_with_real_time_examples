@@ -15,7 +15,6 @@ import java.util.stream.Stream;
 //PreJava10ImmutableCollections
 public class Java_12A_Collecting_A_Stream_To_an_Immutable_Collection_In_Java {
 
-	// Main driver method
 	public static void main(String[] args) {
 
 		// Custom inputs integer elements in List

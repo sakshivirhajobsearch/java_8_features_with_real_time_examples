@@ -28,7 +28,6 @@ class Java_23A_Initialize_A_List_In_A_Single_Line_With_A_Specified_Value_Using_J
 				.collect(Collectors.toList());
 	}
 
-	// Driver code
 	public static void main(String[] args) {
 
 		int N = 1024;

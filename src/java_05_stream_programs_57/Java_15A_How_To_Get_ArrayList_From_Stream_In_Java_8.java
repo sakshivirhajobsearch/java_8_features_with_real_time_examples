@@ -19,7 +19,6 @@ class Java_15A_How_To_Get_ArrayList_From_Stream_In_Java_8 {
 		})).stream();
 	}
 
-	// Driver code
 	public static void main(String[] args) {
 
 		// Get the parallel stream

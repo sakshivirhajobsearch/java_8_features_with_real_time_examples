@@ -14,7 +14,6 @@ import java.util.stream.Stream;
 //JavaStreams
 public class Java_13A_Comparing_Streams_To_Loops_In_Java {
 
-	// Main driver method
 	public static void main(String[] args) throws IOException {
 
 		// 1. Integer Stream

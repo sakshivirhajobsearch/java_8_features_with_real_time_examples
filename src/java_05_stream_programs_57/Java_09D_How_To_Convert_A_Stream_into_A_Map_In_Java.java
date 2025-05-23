@@ -58,7 +58,6 @@ class Java_09D1_How_To_Convert_A_Stream_into_A_Map_In_Java {
 		return cityUserCountMap;
 	}
 
-	// Driver code
 	public static void main(String[] args) {
 
 		// Creating new users

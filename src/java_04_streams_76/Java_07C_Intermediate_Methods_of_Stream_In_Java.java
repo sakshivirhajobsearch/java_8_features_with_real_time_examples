@@ -19,7 +19,6 @@ public class Java_07C_Intermediate_Methods_of_Stream_In_Java {
 	}
 
 	// Method 2
-	// Main driver method
 	public static void main(String[] args) {
 
 		// Creating an object of List class

@@ -7,7 +7,6 @@ import java.util.stream.Collectors;
 //Main class
 public class Java_01A_Java_8_Stream {
 
-	// Main driver method
 	public static void main(String[] args) {
 		// Creating an ArrayList object of integer type
 		ArrayList<Integer> al = new ArrayList<Integer>();

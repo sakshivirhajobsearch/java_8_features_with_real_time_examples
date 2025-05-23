@@ -8,7 +8,6 @@ import java.util.stream.Stream;
 
 public class Java_19B_Convert_A_Set_To_Stream_In_Java {
 
-	// Driver code
 	public static void main(String[] args) {
 
 		// Creating an String HashSet

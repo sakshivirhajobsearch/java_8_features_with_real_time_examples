@@ -7,7 +7,6 @@ import java.util.stream.Collectors;
 //Main class
 public class Java_01B_Java_8_Stream {
 
-	// Main driver method
 	public static void main(String[] args) {
 
 		// Creating an integer Arraylist to store marks

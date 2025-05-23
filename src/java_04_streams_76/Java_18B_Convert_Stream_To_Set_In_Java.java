@@ -10,7 +10,6 @@ import java.util.stream.Stream;
 
 public class Java_18B_Convert_Stream_To_Set_In_Java {
 
-	// Driver code
 	public static void main(String[] args) {
 
 		// Creating a Stream of Strings

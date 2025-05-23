@@ -14,8 +14,8 @@ import java.util.stream.Stream;
 //ImmutableCollectionList
 public class Java_12C_Collecting_A_Stream_To_an_Immutable_Collection_In_Java {
 
-	// Main driver method
 	public static void main(String[] args) {
+		
 		// Creating Stream class object of integer type
 		Stream<Integer> evenNumberStream = Stream.iterate(0, i -> i + 2).limit(50);
 

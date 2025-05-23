@@ -20,7 +20,6 @@ public class Java_10B_Find_the_First_Element_of_A_Stream_In_Java {
 		return first_element;
 	}
 
-	// Driver code
 	public static void main(String[] args) {
 
 		Stream<String> stream = Stream.of("Geek_First", "Geek_2", "Geek_3", "Geek_4", "Geek_Last");

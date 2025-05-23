@@ -6,7 +6,6 @@ import java.util.stream.Stream;
 //Class
 public class Java_06A_Functional_Programming_In_Java_8_Using_the_Stream_API_With_Example {
 
-	// Main driver method
 	public static void main(String[] args) {
 		// Data Source
 

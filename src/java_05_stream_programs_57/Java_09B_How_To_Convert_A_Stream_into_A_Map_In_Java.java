@@ -57,7 +57,6 @@ class GFG {
 		return userMap;
 	}
 
-	// Driver code
 	public static void main(String[] args) {
 
 		// Creating users

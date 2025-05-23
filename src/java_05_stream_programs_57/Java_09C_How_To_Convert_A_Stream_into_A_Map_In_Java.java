@@ -60,7 +60,6 @@ class Java_09C1_How_To_Convert_A_Stream_into_A_Map_In_Java {
 		return cityUserListMap;
 	}
 
-	// Driver code
 	public static void main(String[] args) {
 
 		// Creating new users

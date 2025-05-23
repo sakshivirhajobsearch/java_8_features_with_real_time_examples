@@ -6,7 +6,6 @@ import java.util.List;
 //Main Class 
 public class Java_07A_Intermediate_Methods_of_Stream_In_Java {
 
-	// Main driver method
 	public static void main(String[] args) {
 
 		// Creating an object of List Class by

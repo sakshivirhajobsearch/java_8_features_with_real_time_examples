@@ -30,7 +30,6 @@ class ProgrammingLanguage {
 // JavaStreamExample
 class Java_13C_Comparing_Streams_To_Loops_In_Java {
 
-	// MAin driver method
 	public static void main(String[] args) {
 
 		// Creating an object of List class

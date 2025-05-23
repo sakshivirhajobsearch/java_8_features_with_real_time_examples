@@ -8,7 +8,6 @@ import java.util.List;
 //Main class
 public class Java_02A_Difference_Between_Streams_And_Collections_In_Java {
 
-	// Main driver method
 	public static void main(String[] args) {
 		// Creating an instance of list
 		List<String> companyList = new ArrayList<>();

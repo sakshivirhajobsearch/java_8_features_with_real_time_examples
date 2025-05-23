@@ -25,7 +25,6 @@ class Java_22C_Convert_A_String_To_A_List_of_Characters_In_Java {
 		};
 	}
 
-	// Driver code
 	public static void main(String[] args) {
 
 		// String to be converted

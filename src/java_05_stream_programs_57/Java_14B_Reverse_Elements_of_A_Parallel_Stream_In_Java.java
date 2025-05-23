@@ -17,7 +17,6 @@ class Java_14B_Reverse_Elements_of_A_Parallel_Stream_In_Java {
 		return stream.collect(Collectors.toCollection(LinkedList::new)).descendingIterator();
 	}
 
-	// Driver code
 	public static void main(String[] args) {
 
 		// Get the parallel stream
