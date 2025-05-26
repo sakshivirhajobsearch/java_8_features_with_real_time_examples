@@ -2,7 +2,7 @@ package java_01_lambda_expressions_34;
 
 import java.util.TreeMap;
 
-public class Java_03CJava_Lambda_Expression_With_Collections {
+public class Java_03C_Java_Lambda_Expression_With_Collections {
 
 	public static void main(String[] args) {
 
