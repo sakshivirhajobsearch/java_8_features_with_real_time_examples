@@ -26,7 +26,7 @@ class Student implements Comparable<Student> {
 	}
 }
 
-class Java_06B_How_To_Sort_HashSet_Elements_Using_Comparable_Interface_In_Java {
+public class Java_06B_How_To_Sort_HashSet_Elements_Using_Comparable_Interface_In_Java {
 
 	public static void main(String[] args) {
 

@@ -4,7 +4,7 @@ package java_02_functional_interfaces_28;
 
 import java.util.function.Predicate;
 
-class Java_04D_Predicate_Interface_Approach_4 {
+public class Java_04D_Predicate_Interface_Approach_4 {
 	
 	public static Predicate<String> hasLengthOf10 = new Predicate<String>() {
 		

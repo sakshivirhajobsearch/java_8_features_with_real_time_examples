@@ -2,7 +2,7 @@ package java_04_streams_76;
 
 import java.util.stream.Stream;
 
-class Java_17E_Difference_Between_Stream_Of_And_Arrays_Stream_Method_In_Java {
+public class Java_17E_Difference_Between_Stream_Of_And_Arrays_Stream_Method_In_Java {
 
 	public static void main(String[] args) {
 		

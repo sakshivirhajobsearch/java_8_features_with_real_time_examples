@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
-class Java_02A_Converting_ArrayList_To_HashMap_Using_Method_Reference_In_Java_8 {
+public class Java_02A_Converting_ArrayList_To_HashMap_Using_Method_Reference_In_Java_8 {
 
 	public static void main(String[] args) {
 

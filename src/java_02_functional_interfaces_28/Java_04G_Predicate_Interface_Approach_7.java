@@ -7,7 +7,7 @@ import java.util.List;
 //arrayList of users.
 import java.util.function.Predicate;
 
-class Java_04G_Predicate_Interface_Approach_7 {
+public class Java_04G_Predicate_Interface_Approach_7 {
 
 	String name, role;
 

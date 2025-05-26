@@ -29,7 +29,7 @@ class Compare implements Comparator<Triplet> {
 	}
 }
 
-class Java_04B_Sort_an_Array_of_Triplet_Using_Java_Comparable_And_Comparator {
+public class Java_04B_Sort_an_Array_of_Triplet_Using_Java_Comparable_And_Comparator {
 
 	public static void main(String[] args) {
 

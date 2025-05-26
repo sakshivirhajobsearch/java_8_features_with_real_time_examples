@@ -5,7 +5,7 @@ package java_02_functional_interfaces_28;
 
 import java.util.function.Predicate;
 
-class Java_04C_Predicate_Interface_Approach_3 {
+public class Java_04C_Predicate_Interface_Approach_3 {
 	
 	static void pred(int number, Predicate<Integer> predicate) {
 		if (predicate.test(number)) {

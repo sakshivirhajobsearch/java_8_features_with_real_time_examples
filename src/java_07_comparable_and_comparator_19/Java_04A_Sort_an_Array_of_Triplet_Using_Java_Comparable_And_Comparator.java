@@ -26,7 +26,7 @@ class Triplet implements Comparable<Triplet> {
 	}
 }
 
-class Java_04A_Sort_an_Array_of_Triplet_Using_Java_Comparable_And_Comparator {
+public class Java_04A_Sort_an_Array_of_Triplet_Using_Java_Comparable_And_Comparator {
 
 	public static void main(String[] args) {
 

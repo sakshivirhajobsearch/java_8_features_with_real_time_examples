@@ -7,7 +7,7 @@ interface Square {
 	int calculate(int x);
 }
 
-class Java_01B_Functional_Interfaces_Approach_2 {
+public class Java_01B_Functional_Interfaces_Approach_2 {
 	
 	public static void main(String args[]) {
 		

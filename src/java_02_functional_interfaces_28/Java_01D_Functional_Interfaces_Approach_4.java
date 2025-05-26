@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.function.Predicate;
 
-class Java_01D_Functional_Interfaces_Approach_4 {
+public class Java_01D_Functional_Interfaces_Approach_4 {
 	
 	public static void main(String args[]) {
 

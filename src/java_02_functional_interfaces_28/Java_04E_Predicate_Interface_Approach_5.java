@@ -6,7 +6,7 @@ import java.util.Objects;
 
 import java.util.function.Predicate;
 
-class Java_04E_Predicate_Interface_Approach_5 {
+public class Java_04E_Predicate_Interface_Approach_5 {
 
 	public static Predicate<String> hasLengthOf10 = new Predicate<String>() {
 		@Override

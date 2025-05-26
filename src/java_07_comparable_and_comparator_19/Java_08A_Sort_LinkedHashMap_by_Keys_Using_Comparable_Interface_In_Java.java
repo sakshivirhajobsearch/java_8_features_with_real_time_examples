@@ -24,7 +24,7 @@ class Student implements Comparable<Student> {
 	}
 }
 
-class Java_08A_Sort_LinkedHashMap_by_Keys_Using_Comparable_Interface_In_Java {
+public class Java_08A_Sort_LinkedHashMap_by_Keys_Using_Comparable_Interface_In_Java {
 	
 	public static void main(String[] args) {
 

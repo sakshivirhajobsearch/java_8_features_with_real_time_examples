@@ -2,7 +2,7 @@ package java_02_functional_interfaces_28;
 
 //Java program to demonstrate functional interface
 //before Java 8
-class Java_01C_Functional_Interfaces_Approach_3 {
+public class Java_01C_Functional_Interfaces_Approach_3 {
 	
 	public static void main(String args[]) {
 
