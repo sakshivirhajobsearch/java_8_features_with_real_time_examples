@@ -3,7 +3,6 @@ package java_10_miscellaneous_74;
 //A simple program to Test Interface default
 //methods in java
 interface TestInterface {
-
 	// abstract method
 	public void square(int a);
 
@@ -14,7 +13,7 @@ interface TestInterface {
 }
 
 public class Java_01A_Default_Methods_In_Java_8 implements TestInterface {
-
+	
 	// implementation of square abstract method
 	public void square(int a) {
 		System.out.println(a * a);

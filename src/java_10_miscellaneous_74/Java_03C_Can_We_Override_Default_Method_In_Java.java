@@ -4,28 +4,28 @@ package java_10_miscellaneous_74;
 //when two interfaces are overridden
 
 //Creating Interface One
-interface GfG2 {
+interface GfG {
 	public default void display() {
 		System.out.println("GEEKSFORGEEKS");
 	}
 }
 
 //Creating Interface Two
-interface gfg2 {
+interface gfg {
 
 	public default void display() {
 		System.out.println("geeksforgeeks");
 	}
 }
 
-public class Java_03C_Can_We_Override_Default_Method_In_Java implements GfG2, gfg2 {
+public class Java_03C_Can_We_Override_Default_Method_In_Java implements GfG, gfg {
 
 //Interfaces are Overrided
 	public void display() {
 
-		GfG1.super.display();
+		GfG.super.display();
 
-		gfg1.super.display();
+		gfg.super.display();
 	}
 
 	public static void main(String args[]) {

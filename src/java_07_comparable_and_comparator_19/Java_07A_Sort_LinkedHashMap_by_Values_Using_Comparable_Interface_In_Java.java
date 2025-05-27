@@ -1,20 +1,21 @@
 package java_07_comparable_and_comparator_19;
 
-//Java program to sort the values of LinkedHashMap
+// Java program to sort the values of LinkedHashMap
 
-//Importing required classes from
-//java.util package
-import java.util.*;
+// Importing required classes from
+// java.util package
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.LinkedHashMap;
 import java.util.List;
-import java.util.Map.*;
+import java.util.Map;
+import java.util.Map.Entry;
 
-//Class 
+// Class 
 public class Java_07A_Sort_LinkedHashMap_by_Values_Using_Comparable_Interface_In_Java {
 
+	// Main driver method
 	public static void main(String[] args) {
 
 		// Creating an LinkedHashMap object

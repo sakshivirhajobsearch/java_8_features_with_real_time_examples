@@ -1,12 +1,11 @@
 package java_07_comparable_and_comparator_19;
 
-//Java Program to Sort LinkedList using Comparable
-//in ascending order
+// Java Program to Sort LinkedList using Comparable
+// in ascending order
 import java.util.Collections;
 import java.util.LinkedList;
-import java.util.List;
 
-//User defined class implements Comparable
+// User defined class implements Comparable
 class Student implements Comparable<Student> {
 	
 	String Name;
@@ -14,6 +13,7 @@ class Student implements Comparable<Student> {
 	int Rank;
 
 	Student(String name, int id, int rank) {
+		
 		this.Name = name;
 		this.Id = id;
 		this.Rank = rank;
@@ -22,6 +22,7 @@ class Student implements Comparable<Student> {
 	// Override the compareTo() method
 	@Override
 	public int compareTo(Student s) {
+		
 		if (Rank > s.Rank) {
 			return 1;
 		} else if (Rank == s.Rank) {
@@ -34,6 +35,7 @@ class Student implements Comparable<Student> {
 
 public class Java_05A_Java_Program_To_Sort_LinkedList_Using_Comparable {
 	
+	// Main driver method
 	public static void main(String[] args) {
 		
 		// Create one LinkedList for Student object
@@ -56,6 +58,7 @@ public class Java_05A_Java_Program_To_Sort_LinkedList_Using_Comparable {
 
 		// Print the sorted LinkedList
 		System.out.println("Sorted List");
+		
 		for (Student s : List) {
 			// Print the sorted LinkedList
 			System.out.println(s.Rank + " " + s.Name + " " + s.Id);

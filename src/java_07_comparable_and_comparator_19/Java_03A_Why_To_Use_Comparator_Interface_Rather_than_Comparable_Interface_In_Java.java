@@ -5,9 +5,9 @@ import java.util.Collections;
 import java.util.Comparator;
 
 public class Java_03A_Why_To_Use_Comparator_Interface_Rather_than_Comparable_Interface_In_Java {
-
-	public Java_03A_Why_To_Use_Comparator_Interface_Rather_than_Comparable_Interface_In_Java(String companyName,
-			String employeeName, String designation, double salary, boolean status) {
+	
+	public Java_03A_Why_To_Use_Comparator_Interface_Rather_than_Comparable_Interface_In_Java(String companyName, String employeeName, String designation, double salary, boolean status) {
+		
 		super();
 		this.companyName = companyName;
 		this.employeeName = employeeName;
@@ -76,29 +76,20 @@ public class Java_03A_Why_To_Use_Comparator_Interface_Rather_than_Comparable_Int
 	}
 
 	public static void main(String args[]) {
-
 		// Creating an empty ArrayList of Student type
 		ArrayList<Java_03A_Why_To_Use_Comparator_Interface_Rather_than_Comparable_Interface_In_Java> list = new ArrayList<Java_03A_Why_To_Use_Comparator_Interface_Rather_than_Comparable_Interface_In_Java>();
 
 		// Adding entries in above List
 		// using add() method
-		list.add(new Java_03A_Why_To_Use_Comparator_Interface_Rather_than_Comparable_Interface_In_Java(
-				"abc consultants", "Rachel", "Analyst", 100000.0, true));
-		list.add(new Java_03A_Why_To_Use_Comparator_Interface_Rather_than_Comparable_Interface_In_Java(
-				"nyc consultants", "Monica", "DBA", 90000.0, true));
-		list.add(new Java_03A_Why_To_Use_Comparator_Interface_Rather_than_Comparable_Interface_In_Java(
-				"abc consultants", "Phoebe", "Programmer", 70000.0, true));
-		list.add(new Java_03A_Why_To_Use_Comparator_Interface_Rather_than_Comparable_Interface_In_Java("nj consultants",
-				"Jane", "Programmer", 80000.0, false));
+		list.add(new Java_03A_Why_To_Use_Comparator_Interface_Rather_than_Comparable_Interface_In_Java("abc consultants", "Rachel", "Analyst", 100000.0, true));
+		list.add(new Java_03A_Why_To_Use_Comparator_Interface_Rather_than_Comparable_Interface_In_Java("nyc consultants", "Monica", "DBA", 90000.0, true));
+		list.add(new Java_03A_Why_To_Use_Comparator_Interface_Rather_than_Comparable_Interface_In_Java("abc consultants", "Phoebe", "Programmer", 70000.0, true));
+		list.add(new Java_03A_Why_To_Use_Comparator_Interface_Rather_than_Comparable_Interface_In_Java("nj consultants", "Jane", "Programmer", 80000.0, false));
 
-		list.add(new Java_03A_Why_To_Use_Comparator_Interface_Rather_than_Comparable_Interface_In_Java(
-				"xyz consultants", "Ross", "ProgramManager", 200000.0, true));
-		list.add(new Java_03A_Why_To_Use_Comparator_Interface_Rather_than_Comparable_Interface_In_Java(
-				"chennai consultants", "Chandler", "ProjectManager", 150000.0, true));
-		list.add(new Java_03A_Why_To_Use_Comparator_Interface_Rather_than_Comparable_Interface_In_Java(
-				"xyz consultants", "Joe", "Programmer", 80000.0, true));
-		list.add(new Java_03A_Why_To_Use_Comparator_Interface_Rather_than_Comparable_Interface_In_Java(
-				"mumbai consultants", "Any", "Programmer", 85000.0, false));
+		list.add(new Java_03A_Why_To_Use_Comparator_Interface_Rather_than_Comparable_Interface_In_Java("xyz consultants", "Ross", "ProgramManager", 200000.0, true));
+		list.add(new Java_03A_Why_To_Use_Comparator_Interface_Rather_than_Comparable_Interface_In_Java("chennai consultants", "Chandler", "ProjectManager", 150000.0, true));
+		list.add(new Java_03A_Why_To_Use_Comparator_Interface_Rather_than_Comparable_Interface_In_Java("xyz consultants", "Joe", "Programmer", 80000.0, true));
+		list.add(new Java_03A_Why_To_Use_Comparator_Interface_Rather_than_Comparable_Interface_In_Java("mumbai consultants", "Any", "Programmer", 85000.0, false));
 
 		// Display message on console for better readability
 		System.out.println("Unsorted order of the details");
@@ -142,49 +133,39 @@ public class Java_03A_Why_To_Use_Comparator_Interface_Rather_than_Comparable_Int
 		// We will get the sorted order now by salary
 		for (int i = 0; i < list.size(); i++)
 			System.out.println(list.get(i));
-
 	}
-
 }
 
-class GetDataByCompanyName
-		implements Comparator<Java_03A_Why_To_Use_Comparator_Interface_Rather_than_Comparable_Interface_In_Java> {
+class GetDataByCompanyName implements Comparator<Java_03A_Why_To_Use_Comparator_Interface_Rather_than_Comparable_Interface_In_Java> {
 
 	@Override
-	public int compare(Java_03A_Why_To_Use_Comparator_Interface_Rather_than_Comparable_Interface_In_Java recruitment1,
-			Java_03A_Why_To_Use_Comparator_Interface_Rather_than_Comparable_Interface_In_Java recruitment2) {
+	public int compare(Java_03A_Why_To_Use_Comparator_Interface_Rather_than_Comparable_Interface_In_Java recruitment1, Java_03A_Why_To_Use_Comparator_Interface_Rather_than_Comparable_Interface_In_Java recruitment2) {
 		return recruitment1.companyName.compareTo(recruitment2.companyName);
 	}
 
 }
 
-class GetDataBySalary
-		implements Comparator<Java_03A_Why_To_Use_Comparator_Interface_Rather_than_Comparable_Interface_In_Java> {
+class GetDataBySalary implements Comparator<Java_03A_Why_To_Use_Comparator_Interface_Rather_than_Comparable_Interface_In_Java> {
 	@Override
-	public int compare(Java_03A_Why_To_Use_Comparator_Interface_Rather_than_Comparable_Interface_In_Java recruitment1,
-			Java_03A_Why_To_Use_Comparator_Interface_Rather_than_Comparable_Interface_In_Java recruitment2) {
+	public int compare(Java_03A_Why_To_Use_Comparator_Interface_Rather_than_Comparable_Interface_In_Java recruitment1, Java_03A_Why_To_Use_Comparator_Interface_Rather_than_Comparable_Interface_In_Java recruitment2) {
 		return (int) (recruitment1.salary - recruitment2.salary);
 	}
 
 }
 
-class GetDataByDesignation
-		implements Comparator<Java_03A_Why_To_Use_Comparator_Interface_Rather_than_Comparable_Interface_In_Java> {
+class GetDataByDesignation implements Comparator<Java_03A_Why_To_Use_Comparator_Interface_Rather_than_Comparable_Interface_In_Java> {
 	@Override
-	public int compare(Java_03A_Why_To_Use_Comparator_Interface_Rather_than_Comparable_Interface_In_Java recruitment1,
-			Java_03A_Why_To_Use_Comparator_Interface_Rather_than_Comparable_Interface_In_Java recruitment2) {
+	public int compare(Java_03A_Why_To_Use_Comparator_Interface_Rather_than_Comparable_Interface_In_Java recruitment1, Java_03A_Why_To_Use_Comparator_Interface_Rather_than_Comparable_Interface_In_Java recruitment2) {
 		return recruitment1.designation.compareTo(recruitment2.designation);
 	}
 
 }
 
 // Using 2 fields to compare
-class GetDataByDesignationAndSalary
-		implements Comparator<Java_03A_Why_To_Use_Comparator_Interface_Rather_than_Comparable_Interface_In_Java> {
+class GetDataByDesignationAndSalary implements Comparator<Java_03A_Why_To_Use_Comparator_Interface_Rather_than_Comparable_Interface_In_Java> {
 
 	@Override
-	public int compare(Java_03A_Why_To_Use_Comparator_Interface_Rather_than_Comparable_Interface_In_Java recruitment1,
-			Java_03A_Why_To_Use_Comparator_Interface_Rather_than_Comparable_Interface_In_Java recruitment2) {
+	public int compare(Java_03A_Why_To_Use_Comparator_Interface_Rather_than_Comparable_Interface_In_Java recruitment1, Java_03A_Why_To_Use_Comparator_Interface_Rather_than_Comparable_Interface_In_Java recruitment2) {
 		int designationComparision = recruitment1.designation.compareTo(recruitment2.designation);
 		int salaryComparision = (int) (recruitment1.salary - recruitment2.salary);
 		return (salaryComparision == 0) ? designationComparision : salaryComparision;

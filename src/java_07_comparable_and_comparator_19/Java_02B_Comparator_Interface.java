@@ -2,7 +2,10 @@ package java_07_comparable_and_comparator_19;
 
 //Using Comparator Interface Via 
 //More than One Field
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
 
 //Define the Student class
 class Student {

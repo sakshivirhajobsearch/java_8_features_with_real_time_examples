@@ -1,7 +1,10 @@
 package java_07_comparable_and_comparator_19;
 
 //Using Comparator Interface
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
 
 //Define the Student class
 class Student {
@@ -25,16 +28,18 @@ class Student {
 
 //Helper class implementing Comparator interface
 class SortbyRoll implements Comparator<Student> {
-
+	
 	// Compare by roll number in ascending order
 	public int compare(Student a, Student b) {
 		return a.rollno - b.rollno;
 	}
 }
 
+//Driver Class
 public class Java_02A_Comparator_Interface {
-
+	
 	public static void main(String[] args) {
+		
 		// List of Students
 		List<Student> students = new ArrayList<>();
 

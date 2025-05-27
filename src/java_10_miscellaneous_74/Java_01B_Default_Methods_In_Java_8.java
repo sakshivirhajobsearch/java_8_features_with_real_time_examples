@@ -2,7 +2,7 @@ package java_10_miscellaneous_74;
 
 //A simple Java program to TestClassnstrate static
 //methods in java
-interface TestInterface1 {
+interface TestInterface {
 	// abstract method
 	public void square(int a);
 
@@ -12,8 +12,8 @@ interface TestInterface1 {
 	}
 }
 
-public class Java_01B_Default_Methods_In_Java_8 implements TestInterface1 {
-
+public class Java_01B_Default_Methods_In_Java_8 implements TestInterface {
+	
 	// Implementation of square abstract method
 	public void square(int a) {
 		System.out.println(a * a);
@@ -24,6 +24,6 @@ public class Java_01B_Default_Methods_In_Java_8 implements TestInterface1 {
 		d.square(4);
 
 		// Static method executed
-		TestInterface1.show();
+		TestInterface.show();
 	}
 }

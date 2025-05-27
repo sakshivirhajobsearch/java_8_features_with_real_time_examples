@@ -18,10 +18,9 @@ interface TestInterface2 {
 
 //Implementation class code
 public class Java_01C_Default_Methods_In_Java_8 implements TestInterface1, TestInterface2 {
-
+	
 	// Overriding default show method
 	public void show() {
-
 		// use super keyword to call the show
 		// method of TestInterface1 interface
 		TestInterface1.super.show();

@@ -1,15 +1,19 @@
 package java_07_comparable_and_comparator_19;
 
 //Alternative Method
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.List;
 
 //Define the Student class
 class Student {
+	
 	String name;
 	Integer age;
 
 	// Constructor
 	Student(String name, Integer age) {
+		
 		this.name = name;
 		this.age = age;
 	}

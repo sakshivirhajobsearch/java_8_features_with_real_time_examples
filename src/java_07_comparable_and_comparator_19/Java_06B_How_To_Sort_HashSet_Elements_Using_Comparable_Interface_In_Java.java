@@ -1,11 +1,11 @@
 package java_07_comparable_and_comparator_19;
 
-//Java program to demonstrate how to Sort HashSet using
-//Comparable interface
+// Java program to demonstrate how to Sort HashSet using
+// Comparable interface
+import java.util.HashSet;
+import java.util.TreeSet;
 
-import java.util.*;
-
-//Student class implements comparable interface
+// Student class implements comparable interface
 class Student implements Comparable<Student> {
 
 	Integer marks;
@@ -27,7 +27,7 @@ class Student implements Comparable<Student> {
 }
 
 public class Java_06B_How_To_Sort_HashSet_Elements_Using_Comparable_Interface_In_Java {
-
+	
 	public static void main(String[] args) {
 
 		// New HashSet

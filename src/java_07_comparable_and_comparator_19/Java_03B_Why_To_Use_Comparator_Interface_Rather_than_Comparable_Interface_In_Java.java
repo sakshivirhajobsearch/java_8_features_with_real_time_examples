@@ -10,26 +10,27 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 public class Java_03B_Why_To_Use_Comparator_Interface_Rather_than_Comparable_Interface_In_Java {
-
-	private void addListElements(ArrayList<Recruitment> list) {
+	
+	private void addListElements(ArrayList<Java_03A_Why_To_Use_Comparator_Interface_Rather_than_Comparable_Interface_In_Java> list) {
+		
 		// Adding entries in above List
 		// using add() method
-		list.add(new Recruitment("abc consultants", "Rachel", "Analyst", 100000.0, true));
-		list.add(new Recruitment("nyc consultants", "Monica", "DBA", 90000.0, true));
-		list.add(new Recruitment("abc consultants", "Phoebe", "Programmer", 70000.0, true));
-		list.add(new Recruitment("nj consultants", "Jane", "Programmer", 80000.0, false));
+		list.add(new Java_03A_Why_To_Use_Comparator_Interface_Rather_than_Comparable_Interface_In_Java("abc consultants", "Rachel", "Analyst", 100000.0, true));
+		list.add(new Java_03A_Why_To_Use_Comparator_Interface_Rather_than_Comparable_Interface_In_Java("nyc consultants", "Monica", "DBA", 90000.0, true));
+		list.add(new Java_03A_Why_To_Use_Comparator_Interface_Rather_than_Comparable_Interface_In_Java("abc consultants", "Phoebe", "Programmer", 70000.0, true));
+		list.add(new Java_03A_Why_To_Use_Comparator_Interface_Rather_than_Comparable_Interface_In_Java("nj consultants", "Jane", "Programmer", 80000.0, false));
 
-		list.add(new Recruitment("xyz consultants", "Ross", "ProgramManager", 200000.0, true));
-		list.add(new Recruitment("chennai consultants", "Chandler", "ProjectManager", 150000.0, true));
-		list.add(new Recruitment("xyz consultants", "Joe", "Programmer", 80000.0, true));
-		list.add(new Recruitment("mumbai consultants", "Any", "Programmer", 85000.0, false));
+		list.add(new Java_03A_Why_To_Use_Comparator_Interface_Rather_than_Comparable_Interface_In_Java("xyz consultants", "Ross", "ProgramManager", 200000.0, true));
+		list.add(new Java_03A_Why_To_Use_Comparator_Interface_Rather_than_Comparable_Interface_In_Java("chennai consultants", "Chandler", "ProjectManager", 150000.0, true));
+		list.add(new Java_03A_Why_To_Use_Comparator_Interface_Rather_than_Comparable_Interface_In_Java("xyz consultants", "Joe", "Programmer", 80000.0, true));
+		list.add(new Java_03A_Why_To_Use_Comparator_Interface_Rather_than_Comparable_Interface_In_Java("mumbai consultants", "Any", "Programmer", 85000.0, false));
 	}
 
 	@DisplayName("Test check whether sorting done by company name ")
 	@Test
 	public void testSortByCompanyName() {
 		// Creating an empty ArrayList of Recruitment type
-		ArrayList<Recruitment> list = new ArrayList<Recruitment>();
+		ArrayList<Java_03A_Why_To_Use_Comparator_Interface_Rather_than_Comparable_Interface_In_Java> list = new ArrayList<Java_03A_Why_To_Use_Comparator_Interface_Rather_than_Comparable_Interface_In_Java>();
 
 		addListElements(list);
 
@@ -50,8 +51,9 @@ public class Java_03B_Why_To_Use_Comparator_Interface_Rather_than_Comparable_Int
 	@DisplayName("Test check whether sorting done by salary ")
 	@Test
 	public void testSortBySalary() {
+		
 		// Creating an empty ArrayList of Recruitment type
-		ArrayList<Recruitment> list = new ArrayList<Recruitment>();
+		ArrayList<Java_03A_Why_To_Use_Comparator_Interface_Rather_than_Comparable_Interface_In_Java> list = new ArrayList<Java_03A_Why_To_Use_Comparator_Interface_Rather_than_Comparable_Interface_In_Java>();
 
 		addListElements(list);
 
@@ -74,8 +76,9 @@ public class Java_03B_Why_To_Use_Comparator_Interface_Rather_than_Comparable_Int
 	@DisplayName("Test check whether sorting done by designation ")
 	@Test
 	public void testSortByDesignation() {
+		
 		// Creating an empty ArrayList of Recruitment type
-		ArrayList<Recruitment> list = new ArrayList<Recruitment>();
+		ArrayList<Java_03A_Why_To_Use_Comparator_Interface_Rather_than_Comparable_Interface_In_Java> list = new ArrayList<Java_03A_Why_To_Use_Comparator_Interface_Rather_than_Comparable_Interface_In_Java>();
 
 		addListElements(list);
 
@@ -98,8 +101,9 @@ public class Java_03B_Why_To_Use_Comparator_Interface_Rather_than_Comparable_Int
 	@DisplayName("Test check whether sorting done both designation and salary ")
 	@Test
 	public void testSortByBothDesignationAndSalary() {
+		
 		// Creating an empty ArrayList of Recruitment type
-		ArrayList<Recruitment> list = new ArrayList<Recruitment>();
+		ArrayList<Java_03A_Why_To_Use_Comparator_Interface_Rather_than_Comparable_Interface_In_Java> list = new ArrayList<Java_03A_Why_To_Use_Comparator_Interface_Rather_than_Comparable_Interface_In_Java>();
 
 		addListElements(list);
 

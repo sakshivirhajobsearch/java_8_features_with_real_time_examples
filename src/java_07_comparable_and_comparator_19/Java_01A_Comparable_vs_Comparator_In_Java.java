@@ -1,18 +1,20 @@
 package java_07_comparable_and_comparator_19;
 
-//Java program to demonstrate Comparable interface
+// Java program to demonstrate Comparable interface
 import java.util.ArrayList;
 import java.util.Collections;
 
-//Movie class implements Comparable 
-//interface to define default sorting
+// Movie class implements Comparable 
+// interface to define default sorting
 class Movie implements Comparable<Movie> {
+	
 	private String name;
 	private double rating;
 	private int year;
 
 	// Constructor
 	public Movie(String name, double rating, int year) {
+		
 		this.name = name;
 		this.rating = rating;
 		this.year = year;

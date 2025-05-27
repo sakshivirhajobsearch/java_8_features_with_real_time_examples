@@ -1,7 +1,6 @@
 package java_07_comparable_and_comparator_19;
 
-import java.io.*;
-import java.util.*;
+import java.util.Arrays;
 
 class Triplet implements Comparable<Triplet> {
 	
@@ -10,6 +9,7 @@ class Triplet implements Comparable<Triplet> {
 	int z;
 
 	public Triplet(int x, int y, int z) {
+		
 		this.x = x;
 		this.y = y;
 		this.z = z;
@@ -27,7 +27,7 @@ class Triplet implements Comparable<Triplet> {
 }
 
 public class Java_04A_Sort_an_Array_of_Triplet_Using_Java_Comparable_And_Comparator {
-
+	
 	public static void main(String[] args) {
 
 		int n = 4;
@@ -47,6 +47,7 @@ public class Java_04A_Sort_an_Array_of_Triplet_Using_Java_Comparable_And_Compara
 	}
 
 	public static void print(Triplet[] arr) {
+		
 		for (int i = 0; i < arr.length; i++) {
 			System.out.println(arr[i]);
 		}

@@ -1,12 +1,13 @@
 package java_07_comparable_and_comparator_19;
 
-//Java program demonstrate how to Sort LinkedHashSet using
-//Comparable interface
-import java.util.*;
+// Java program demonstrate how to Sort LinkedHashSet using
+// Comparable interface
+import java.util.LinkedHashSet;
+import java.util.TreeSet;
 
-//Student class implements comparable interface
+// Student class implements comparable interface
 class Student implements Comparable<Student> {
-
+	
 	Integer marks;
 
 	Student(Integer marks) {
@@ -26,7 +27,7 @@ class Student implements Comparable<Student> {
 }
 
 public class Java_09A_How_To_Sort_LinkedHashSet_Elements_Using_Comparable_Interface_In_Java {
-
+	
 	public static void main(String[] args) {
 
 		// New LinkedHashSet

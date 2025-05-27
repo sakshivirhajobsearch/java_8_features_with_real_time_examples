@@ -1,10 +1,10 @@
 package java_07_comparable_and_comparator_19;
 
-import java.io.*;
-import java.util.*;
+import java.util.Arrays;
+import java.util.Comparator;
 
 class Triplet {
-
+	
 	int x;
 	int y;
 	int z;
@@ -30,7 +30,7 @@ class Compare implements Comparator<Triplet> {
 }
 
 public class Java_04B_Sort_an_Array_of_Triplet_Using_Java_Comparable_And_Comparator {
-
+	
 	public static void main(String[] args) {
 
 		int n = 4;
@@ -50,6 +50,7 @@ public class Java_04B_Sort_an_Array_of_Triplet_Using_Java_Comparable_And_Compara
 	}
 
 	public static void print(Triplet[] arr) {
+		
 		for (int i = 0; i < arr.length; i++) {
 			System.out.println(arr[i]);
 		}

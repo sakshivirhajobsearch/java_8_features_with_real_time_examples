@@ -1,11 +1,13 @@
 package java_07_comparable_and_comparator_19;
 
-//Java program demonstrate how to Sort LinkedHashMap by
-//keys using Comparable interface
-import java.util.*;
+// Java program demonstrate how to Sort LinkedHashMap by
+// keys using Comparable interface
+import java.util.LinkedHashMap;
+import java.util.TreeMap;
 
-//Student class implements comparable interface
+// Student class implements comparable interface
 class Student implements Comparable<Student> {
+	
 	String name;
 
 	Student(String name) {
