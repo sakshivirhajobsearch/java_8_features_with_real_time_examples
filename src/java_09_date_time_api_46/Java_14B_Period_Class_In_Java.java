@@ -9,10 +9,8 @@ import java.time.LocalDate;
 import java.time.Period;
 import java.time.temporal.Temporal;
 
-//Main class
 public class Java_14B_Period_Class_In_Java {
 
-	// Main driver method
 	public static void main(String[] args) {
 
 		// Getting a period representing number of days

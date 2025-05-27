@@ -15,7 +15,6 @@ interface New {
 //Class
 public class Java_07C_Block_Lambda_Expressions_In_Java {
 
-	// Main driver method
 	public static void main(String[] args) {
 
 		// block lambda

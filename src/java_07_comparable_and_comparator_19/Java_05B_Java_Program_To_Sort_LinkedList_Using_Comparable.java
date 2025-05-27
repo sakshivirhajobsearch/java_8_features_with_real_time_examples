@@ -33,7 +33,6 @@ class Student implements Comparable<Student> {
 
 public class Java_05B_Java_Program_To_Sort_LinkedList_Using_Comparable {
 	
-	// Main driver method
 	public static void main(String[] args) {
 		
 		// Create one LinkedList for Student object

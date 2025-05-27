@@ -32,7 +32,6 @@ class SortbyRoll implements Comparator<Student> {
 	}
 }
 
-//Driver Class
 public class Java_02A_Comparator_Interface {
 
 	public static void main(String[] args) {

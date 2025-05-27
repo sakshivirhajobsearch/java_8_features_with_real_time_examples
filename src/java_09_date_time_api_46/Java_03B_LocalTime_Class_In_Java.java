@@ -7,10 +7,8 @@ package java_09_date_time_api_46;
 //java.time package 
 import java.time.LocalTime;
 
-//Main Class 
 public class Java_03B_LocalTime_Class_In_Java {
 
-	// main driver method
 	public static void main(String args[]) {
 
 		// Creating an object of LocalTime Class by

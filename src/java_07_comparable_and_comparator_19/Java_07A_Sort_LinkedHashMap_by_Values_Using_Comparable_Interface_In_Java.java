@@ -15,7 +15,6 @@ import java.util.Map.*;
 //Class 
 public class Java_07A_Sort_LinkedHashMap_by_Values_Using_Comparable_Interface_In_Java {
 
-	// Main driver method
 	public static void main(String[] args) {
 
 		// Creating an LinkedHashMap object

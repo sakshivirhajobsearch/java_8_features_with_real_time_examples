@@ -5,10 +5,8 @@ package java_09_date_time_api_46;
 //importing MonthDay class from java.time
 import java.time.MonthDay;
 
-//Main Class
 public class Java_05B_MonthDay_Class_In_Java {
 
-	// Main driver method
 	public static void main(String[] args) {
 
 		// Store an instance of MonthDay

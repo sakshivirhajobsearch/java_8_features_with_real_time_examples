@@ -9,10 +9,8 @@ import java.time.LocalDateTime;
 import java.time.LocalTime;
 import java.time.Month;
 
-//main class 
 public class Java_04B_LocalDateTime_Class_In_Java {
 
-	// Main driver method
 	public static void main(String[] args) {
 
 		// Milliseconds

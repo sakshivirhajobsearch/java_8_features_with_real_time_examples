@@ -10,7 +10,6 @@ import java.util.List;
 
 public class Java_08E_Match_Lambdas_To_Interfaces_In_Java {
 
-	// main driver method
 	public static void main(String[] args) {
 
 		// Creating a List of integer type

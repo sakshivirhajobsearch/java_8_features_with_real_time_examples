@@ -10,7 +10,6 @@ public class Java_04B_Lambda_Expression_Variable_Capturing_With_Examples {
 	// Custom initialization
 	int data = 170;
 
-	// Main driver method
 	public static void main(String[] args) {
 
 		// Creating object of this class

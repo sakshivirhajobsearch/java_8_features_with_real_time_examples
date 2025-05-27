@@ -12,7 +12,6 @@ interface If1 {
 //Class
 public class Java_07A_Block_Lambda_Expressions_In_Java {
 
-	// Main driver method
 	public static void main(String[] args) {
 
 		// Lambda expression body

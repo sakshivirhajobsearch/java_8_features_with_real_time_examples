@@ -7,10 +7,8 @@ package java_09_date_time_api_46;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
-//Main class
 public class Java_04C_LocalDateTime_Class_In_Java {
 
-	// Main driver method
 	public static void main(String[] args) {
 
 		// Creating an object of DateTimeFormatter class

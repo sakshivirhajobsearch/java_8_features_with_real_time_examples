@@ -8,10 +8,8 @@ import java.time.LocalTime;
 import java.time.OffsetTime;
 import java.time.ZoneOffset;
 
-//Main class
 public class Java_06F_OffsetTime_Class_In_Java {
 
-	// Main driver method
 	public static void main(String[] args) {
 
 		// Obtaining an instance of OffsetTime

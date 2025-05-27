@@ -5,14 +5,14 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 
-class Movie {
+class Movie1 {
 
 	private String name;
 	private double rating;
 	private int year;
 
-	// Constructor to initialize movie details
-	public Movie(String name, double rating, int year) {
+	// Constructor to initialize Movie1 details
+	public Movie1(String name, double rating, int year) {
 
 		this.name = name;
 		this.rating = rating;
@@ -47,47 +47,46 @@ class Movie {
 
 }
 
-//Comparator to sort movies by rating
-class Rating implements Comparator<Movie> {
+//Comparator to sort Movie1s by rating
+class Rating implements Comparator<Movie1> {
 
-	public int compare(Movie m1, Movie m2) {
+	public int compare(Movie1 m1, Movie1 m2) {
 
 		// Sort by rating in descending order
 		return Double.compare(m2.getRating(), m1.getRating());
 	}
 }
 
-//Comparator to sort movies by name
-class NameCompare implements Comparator<Movie> {
-	public int compare(Movie m1, Movie m2) {
+//Comparator to sort Movie1s by name
+class NameCompare implements Comparator<Movie1> {
+	public int compare(Movie1 m1, Movie1 m2) {
 
 		// Sort by name in alphabetical order
 		return m1.getName().compareTo(m2.getName());
 	}
 }
 
-//Main class 
 public class Java_01B_Comparable_vs_Comparator_In_Java {
 
 	public static void main(String[] args) {
 
-		// Create a list of movies
-		ArrayList<Movie> m = new ArrayList<>();
-		m.add(new Movie("Force Awakens", 8.3, 2015));
-		m.add(new Movie("Star Wars", 8.7, 1977));
-		m.add(new Movie("Empire Strikes Back", 8.8, 1980));
+		// Create a list of Movie1s
+		ArrayList<Movie1> m = new ArrayList<>();
+		m.add(new Movie1("Force Awakens", 8.3, 2015));
+		m.add(new Movie1("Star Wars", 8.7, 1977));
+		m.add(new Movie1("Empire Strikes Back", 8.8, 1980));
 
-		// Sort movies by rating and display all
+		// Sort Movie1s by rating and display all
 		Collections.sort(m, new Rating());
-		System.out.println("Movies sorted by rating:");
-		for (Movie m1 : m) {
+		System.out.println("Movie1s sorted by rating:");
+		for (Movie1 m1 : m) {
 			System.out.println(m1.getRating() + " " + m1.getName() + " " + m1.getYear());
 		}
 
-		// Sort movies by name and display all
+		// Sort Movie1s by name and display all
 		Collections.sort(m, new NameCompare());
-		System.out.println("\nMovies sorted by name:");
-		for (Movie m1 : m) {
+		System.out.println("\nMovie1s sorted by name:");
+		for (Movie1 m1 : m) {
 			System.out.println(m1.getName() + " " + m1.getRating() + " " + m1.getYear());
 		}
 	}

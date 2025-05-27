@@ -13,7 +13,6 @@ interface Func {
 //Class
 public class Java_07B_Block_Lambda_Expressions_In_Java {
 
-	// Main driver method
 	public static void main(String[] args) {
 
 		// Block lambda expression

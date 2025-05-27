@@ -26,7 +26,6 @@ public class Java_08A_Match_Lambdas_To_Interfaces_In_Java implements display {
 		System.out.println(msg);
 	}
 
-	// Main driver method
 	public static void main(String[] args) {
 
 		// Creating object of class inside main()

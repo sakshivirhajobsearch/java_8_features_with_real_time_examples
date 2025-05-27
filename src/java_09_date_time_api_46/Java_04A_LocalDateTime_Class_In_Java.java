@@ -8,7 +8,6 @@ import java.time.LocalDateTime;
 //Main class for LocalDateTime
 public class Java_04A_LocalDateTime_Class_In_Java {
 
-	// Main driver method
 	public static void main(String[] args) {
 
 		// Creating an object of LocalDateTime class

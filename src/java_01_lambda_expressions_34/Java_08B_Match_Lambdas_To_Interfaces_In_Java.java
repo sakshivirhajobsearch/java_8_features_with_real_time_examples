@@ -9,7 +9,6 @@ interface Cab {
 public class Java_08B_Match_Lambdas_To_Interfaces_In_Java {
 
 	// Method 1
-	// Main driver method
 	public static void main(String[] args) {
 
 		// Creating object of above functional interface

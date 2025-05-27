@@ -6,10 +6,8 @@ package java_09_date_time_api_46;
 //Importing the class from java.time package
 import java.time.OffsetTime;
 
-//Main class
 public class Java_06C_OffsetTime_Class_In_Java {
 
-	// Main driver method
 	public static void main(String[] args) {
 
 		// Creating an instance of the class

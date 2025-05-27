@@ -10,7 +10,6 @@ import java.time.YearMonth;
 //Class
 public class Java_12A_Year_Class_In_Java {
 
-	// Main driver method
 	public static void main(String[] args) {
 
 		// Object 1

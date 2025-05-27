@@ -6,10 +6,8 @@ package java_02_functional_interfaces_28;
 //Importing interface
 import java.util.function.Function;
 
-//Main class
 public class Java_05A_Function_Interface_Approach_1 {
 
-	// Main driver method
 	public static void main(String args[]) {
 		
 		// Function which takes in a number

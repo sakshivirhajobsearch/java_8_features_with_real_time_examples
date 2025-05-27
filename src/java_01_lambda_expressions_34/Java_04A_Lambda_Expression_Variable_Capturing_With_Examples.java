@@ -9,7 +9,6 @@ interface MyFunction {
 
 public class Java_04A_Lambda_Expression_Variable_Capturing_With_Examples {
 
-	// Main driver method
 	public static void main(String[] args) {
 
 		// Custom local variable that can be captured

@@ -12,7 +12,6 @@ public class Java_10A_Check_if_A_String_Contains_Only_Alphabets_In_Java_Using_La
 	}
 
 	// Method 2
-	// Main driver method
 	public static void main(String[] args) {
 
 		// Calling method over different strings
