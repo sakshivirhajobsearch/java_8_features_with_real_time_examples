@@ -22,6 +22,7 @@ public class Java_04B_Optional_ifPresentOrElse_Method {
 			}, () -> {
 				System.out.println("Value is empty");
 			});
+			
 		} catch (Exception e) {
 			System.out.println(e);
 		}
