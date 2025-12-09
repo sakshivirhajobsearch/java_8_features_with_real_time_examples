@@ -19,7 +19,7 @@ No description provided.
 
 ## 🧠 Tech Stack Used
 
-- **Detected Technologies:** Node.js / JavaScript / TypeScript, Java (Maven/Gradle), TensorFlow / Keras
+- **Detected Technologies:** Java, JavaScript
 - **GitHub Topics:** None
 
 ---
